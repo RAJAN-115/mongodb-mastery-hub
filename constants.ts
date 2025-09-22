@@ -1,4 +1,3 @@
-
 import type { Question, Flashcard, ProgressData } from './types';
 
 export const QUIZ_QUESTIONS: Question[] = [
@@ -79,11 +78,9 @@ export const FLASHCARDS: Flashcard[] = [
     }
 ];
 
-export const PROGRESS_DATA: ProgressData[] = [
-    { name: 'Modeling', completed: 80 },
-    { name: 'Replication', completed: 65 },
-    { name: 'Indexing', completed: 90 },
-    { name: 'Aggregation', completed: 75 },
-    { name: 'Security', completed: 40 },
-    { name: 'Sharding', completed: 55 },
+export const PROGRESS_DATA = [
+  { name: "Fundamentals", completed: 80 },
+  { name: "Operations", completed: 65 },
+  { name: "Architecture", completed: 70 },
+  { name: "Performance", completed: 55 }
 ];
