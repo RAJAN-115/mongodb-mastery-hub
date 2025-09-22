@@ -4,6 +4,17 @@
 
 A comprehensive learning platform for MongoDB featuring interactive quizzes, flashcards, mind maps, and progress tracking to help you master MongoDB concepts and skills.
 
+## 📋 Table of Contents
+
+- [✨ Features](#-features)
+- [🚀 Getting Started](#-getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [🛠️ Built With](#️-built-with)
+- [🌐 Live Demo](#-live-demo)
+- [🤝 Contributing](#-contributing)
+- [📝 License](#-license)
+
 ## ✨ Features
 
 - 📝 **Interactive Quizzes** - Test your MongoDB knowledge with engaging quizzes
@@ -15,6 +26,7 @@ A comprehensive learning platform for MongoDB featuring interactive quizzes, fla
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Node.js (v16 or higher)
 - A Gemini API key for AI features
 
@@ -65,5 +77,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
-
 **Happy Learning! 🎓**
