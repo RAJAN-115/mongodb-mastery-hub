@@ -1,4 +1,3 @@
-
 import React, { useState, useCallback } from 'react';
 import { QUIZ_QUESTIONS } from '../../constants';
 import type { Question } from '../../types';
@@ -31,7 +30,7 @@ const QuizView: React.FC = () => {
             setShowResults(true);
         }
     }, [currentQuestionIndex, questions.length]);
-    
+
     const handleRestartQuiz = () => {
         setCurrentQuestionIndex(0);
         setSelectedAnswer(null);
@@ -72,15 +71,17 @@ const QuizView: React.FC = () => {
             </div>
         );
     }
-    
+
     return (
         <div className="max-w-3xl mx-auto p-4 animate-fade-in">
-             <header className="mb-8">
+            <header className="mb-8">
                 <h2 className="text-3xl font-bold text-white">MongoDB Quiz</h2>
                 <p className="text-slate-400 mt-1">Test your knowledge. Question {currentQuestionIndex + 1} of {questions.length}.</p>
             </header>
+
             <div className="bg-slate-800/50 p-8 rounded-xl border border-slate-700/50">
                 <h3 className="text-xl font-semibold text-slate-100 mb-6">{currentQuestion.question}</h3>
+
                 <div className="space-y-4">
                     {currentQuestion.options.map(option => (
                         <button
@@ -93,6 +94,7 @@ const QuizView: React.FC = () => {
                         </button>
                     ))}
                 </div>
+
                 {isAnswered && (
                     <div className="mt-6 p-4 bg-slate-900/50 rounded-lg animate-fade-in">
                         <h4 className="font-bold text-lg text-brand-green mb-2">Explanation</h4>
